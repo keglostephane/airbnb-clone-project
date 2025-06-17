@@ -1,13 +1,11 @@
 # AirBnB Clone Backend
 
-
 ## :rocket: Objective
 
 The backend for the Airbnb Clone project is designed to provide a robust and 
 scalable foundation for managing user interactions, property listings, booking and payments. This backend will support various functionalities required to 
 mimic the core features of Airbnb, ensuring a smooth experience for users and 
 hosts.
-
 
 ## :trophy: Project Goals
 
@@ -22,7 +20,6 @@ hosts.
 **Review System**: Allow users to leave reviews and ratings for properties.
 
 **Data Optimization**: Ensure efficient data retrieval and storage through database optimizations.
-
 
 ## :gear: Technology Stack
 
@@ -42,7 +39,6 @@ hosts.
 
 **CI/CD Pipelines**: Automated pipelines for testing and deploying code changes.
 
-
 ## :busts_in_silhouette: Team Roles and Responsibilities
 
 **Backend Developer**: Implements API endpoints, database schemas, business logic and third-party integration.
@@ -52,3 +48,57 @@ hosts.
 **Devops Engineer**: Handles deployment, monitoring and sclaing of the backend servives.
 
 **QA Engineer**: Ensures the backend functionalities are thoroughly tested and meet the functional and non-functional requirements.
+
+## :memo: Database Design
+
+### Entities
+
+1. **Users**
+   * username(String)
+   * password(String)
+   * email(String)
+   * phone(String)
+   
+2. **Properties**
+   * user_id(Foreign Key, Integer)
+   * location(Decimal)
+   * number_rooms(Integer)
+   * amenities(String)
+   * price_per_night(Decimal)
+   
+3. **Bookings**
+   * user_id(Foreign Key, Integer)
+   * property_id(Foreign Key, Integer)
+   * check_in_date(Date)
+   * check_out_date(Date)
+   * total_price(Decimal)
+   
+4. **Payments**
+   * payment_id(Primary Key, Integer)
+   * booking_id(Foreign Key, Integer)
+   * amount(Decimal)
+   * date(Date)
+   * transaction_id(string)
+   
+5. **Reviews**
+   * user_id(Foreign Key, Integer)
+   * property_id(Foreign Key, Integer)
+   * rating(Integer)
+   * comment(Integer)
+
+## Relations
+
+* **Users** can have multiple **Properties**.
+* **Users** can book many **Properties**.
+* **Users** can pay for many **Bookings**.
+* **Users** can review many **Properties**.
+
+* **Properties** belong to only one **User**.
+* **Properties** can have many **Bookings**.
+* **Properties** can be reviewed by many **Users**.
+
+* **Bookings** relate to only one **Property**.
+
+* **Payments** can include many **Bookings**.
+
+* **Reviews** relate to only one **Property**.
