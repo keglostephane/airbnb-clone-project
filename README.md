@@ -86,7 +86,7 @@ hosts.
    * *rating* (Integer)
    * *comment* (Integer)
 
-## Relations
+### Relations
 
 * **Users** can have multiple **Properties**.
 * **Users** can book many **Properties**.
