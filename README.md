@@ -54,10 +54,10 @@ hosts.
 ### Entities
 
 1. **Users**
-   * username(String)
-   * password(String)
-   * email(String)
-   * phone(String)
+   * *username*(String)
+   * *password*(String)
+   * *email*(String)
+   * *phone*(String)
    
 2. **Properties**
    * user_id(Foreign Key, Integer)
@@ -102,3 +102,5 @@ hosts.
 * **Payments** can include many **Bookings**.
 
 * **Reviews** relate to only one **Property**.
+
+## 
