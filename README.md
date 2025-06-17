@@ -54,37 +54,37 @@ hosts.
 ### Entities
 
 1. **Users**
-   * *username*(String)
-   * *password*(String)
-   * *email*(String)
-   * *phone*(String)
+   * *username* (String)
+   * *password* (String)
+   * *email* (String)
+   * *phone* (String)
    
 2. **Properties**
-   * user_id(Foreign Key, Integer)
-   * location(Decimal)
-   * number_rooms(Integer)
-   * amenities(String)
-   * price_per_night(Decimal)
+   * *user_id* (Foreign Key, Integer)
+   * *location* (Decimal)
+   * *number_rooms* (Integer)
+   * *amenities* (String)
+   * *price_per_night* (Decimal)
    
 3. **Bookings**
-   * user_id(Foreign Key, Integer)
-   * property_id(Foreign Key, Integer)
-   * check_in_date(Date)
-   * check_out_date(Date)
-   * total_price(Decimal)
+   * *user_id* (Foreign Key, Integer)
+   * *property_id* (Foreign Key, Integer)
+   * *check_in_date* (Date)
+   * *check_out_date* (Date)
+   * *total_price* (Decimal)
    
 4. **Payments**
-   * payment_id(Primary Key, Integer)
-   * booking_id(Foreign Key, Integer)
-   * amount(Decimal)
-   * date(Date)
-   * transaction_id(string)
+   * *payment_id* (Primary Key, Integer)
+   * *booking_id* (Foreign Key, Integer)
+   * *amount* (Decimal)
+   * *date* (Date)
+   * *transaction_id* (string)
    
 5. **Reviews**
-   * user_id(Foreign Key, Integer)
-   * property_id(Foreign Key, Integer)
-   * rating(Integer)
-   * comment(Integer)
+   * *user_id* (Foreign Key, Integer)
+   * *property_id* (Foreign Key, Integer)
+   * *rating* (Integer)
+   * *comment* (Integer)
 
 ## Relations
 
