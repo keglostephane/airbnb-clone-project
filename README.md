@@ -1,6 +1,6 @@
 # AirBnB Clone Backend
 
-## :rockect: Objective
+## :rocket: Objective
 
 The backend for the Airbnb Clone project is designed to provide a robust and 
 scalable foundation for managing user interactions, property listings, booking and payments. This backend will support various functionalities required to 
