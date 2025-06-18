@@ -103,4 +103,32 @@ hosts.
 
 * **Reviews** relate to only one **Property**.
 
-## 
+## :hammer_and_pick: Feature Breakdown
+
+### User Management
+* register users
+* authenticate (log in) users
+* modify users personal infos (profile)
+
+### Property Management
+* register properties
+* list properties
+* modify properties details
+* search for properties
+
+### Booking System
+* book properties
+* modify booking details
+
+### Payment Processing
+* Pay for bookings
+* Record payments
+
+### Review system
+* Rate properties
+* Comment properties
+
+### Data Optimization
+* Build a scalable and fault-tolerant database
+* Improve database performance using indexing and caching
+
