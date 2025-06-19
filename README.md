@@ -142,17 +142,17 @@ hosts.
 
 Implement these security measures are crucial and will provide a safe and good user experience:
 
-**User Management**: Identify users and let them manage their personal data.
+* **User Management**: Identify users and let them manage their personal data.
 
-**Property Management**: Allow users that own properties to manage them.
+* **Property Management**: Allow users that own properties to manage them.
 
-**Booking System**: Allow only users to book properties.
+* **Booking System**: Allow only users to book properties.
 
-**Payment Processing**: Secure payments by encrypting traffic between users and the API.
+* **Payment Processing**: Secure payments by encrypting traffic between users and the API.
 
-**Review System**: Allow users to review properties they booked and paid.
+* **Review System**: Allow users to review properties they booked and paid.
 
-**Data Optimization**: Ensure performance and high availability by limiting access to the database.
+* **Data Optimization**: Ensure performance and high availability by limiting access to the database.
 
 ## :globe_with_meridians: CI/CD Pipeline
 
@@ -160,4 +160,4 @@ Implement these security measures are crucial and will provide a safe and good u
 
 Using CI/CD pipelines will speed up development and deployment by frequently integrating code changes, automating the build, test, and deployment processes and enabling easier rollbacks in case of failure or issues in production.
 
-**CI/CD Tools**: Jenkins, GitHub Actions, Travis CI.
+**CI/CD Tools**: **Jenkins**, **GitHub Actions**, **Travis CI**.
