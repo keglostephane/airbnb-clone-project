@@ -128,7 +128,7 @@ hosts.
 * Rate properties
 * Comment properties
 
-### :chart_with_upwards_trend: Data Optimization
+### Data Optimization
 * Build a scalable and fault-tolerant database
 * Improve database performance using indexing and caching
 
