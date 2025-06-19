@@ -160,4 +160,4 @@ Implement these security measures are crucial and will provide a safe and good u
 
 Using CI/CD pipelines will speed up development and deployment by frequently integrating code changes, automating the build, test, and deployment processes and enabling easier rollbacks in case of failure or issues in production.
 
-**CI/CD Tools**: **Jenkins**, **GitHub Actions**, **Travis CI**.
+**CI/CD Tools**: *Jenkins*, *GitHub Actions*, *Travis CI*.
