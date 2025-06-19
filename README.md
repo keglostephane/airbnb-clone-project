@@ -135,16 +135,23 @@ hosts.
 ## :shield: API Security
 
 **Authentication**: Verify the identity of a user.
+
 **Authorization**: Determine whether an authenticated user has permission to access specific resources or perform certain actions.
+
 **Rate Limiting**: Control the number of requests a user can make to the API within a specified time frame.
 
 Implement these security measures are crucial and will provide a safe and good user experience:
 
 **User Management**: Identify users and let them manage their personal data.
+
 **Property Management**: Allow users that own properties to manage them.
+
 **Booking System**: Allow only users to book properties.
+
 **Payment Processing**: Secure payments by encrypting traffic between users and the API.
+
 **Review System**: Allow users to review properties they booked and paid.
+
 **Data Optimization**: Ensure performance and high availability by limiting access to the database.
 
 
