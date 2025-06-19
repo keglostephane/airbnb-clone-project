@@ -154,4 +154,10 @@ Implement these security measures are crucial and will provide a safe and good u
 
 **Data Optimization**: Ensure performance and high availability by limiting access to the database.
 
+## :globe_with_meridians: CI/CD Pipeline
 
+**CI/CD pipelines** are automated workflows that help software development teams integrate code changes, test them, and deploy applications efficiently. They consist of **continuous integration (CI)**, which merges code changes into a shared repository, and **continuous delivery/deployment (CD)**, which automates the release of software to production environments.
+
+Using CI/CD pipelines will speed up development and deployment by frequently integrating code changes, automating the build, test, and deployment processes and enabling easier rollbacks in case of failure or issues in production.
+
+**CI/CD Tools**: Jenkins, GitHub Actions, Travis CI.
